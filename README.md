@@ -13,10 +13,24 @@ exam_data = {'name': ['Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Micha
 labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 
 Instructions
+
+
 Print the three first rows using the head() method.
+
+
 Delete rows with Nan values.
+
+
 Extract the 'name' and 'score' columns from the DataFrame.
+
+
 Write a Pandas program to append a new row 'k' to the DataFrame with these values (name: "Suresh", score: 15.5, attempts: 1, qualify: "yes").
+
+
 Write a Pandas program to delete the 'attempts' column from the DataFrame.
+
+
 Add a new column "Success": if the score is higher than 10 we will have 1, else we will have 0.
+
+
 After executing the final DataFrame, export it into a CSV file named "my_data".
